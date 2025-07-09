@@ -508,6 +508,26 @@ h2{
   border-radius: 8px;
   margin-bottom: 15px;
 }
+.destinations,
+.museums-grid,
+.restaurant-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card,
+.museum-card,
+.restaurant-card {
+  flex: 1 1 280px;
+  max-width: 300px;
+  min-width: 240px;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 
 
